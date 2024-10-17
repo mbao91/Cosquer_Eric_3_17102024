@@ -30,6 +30,36 @@ a {
     text-decoration: none;
 }
 
+.top {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-booki {
+    display: flex;
+    justify-content: flex-start;
+    height: 30px;
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    height: 10px;
+}
+
+nav a {
+    margin-left: 40px;
+}
+
+nav a:hover {
+    border-top: 2px solid var(--main-color);
+    margin-top: -25px;
+    padding-top: 23px;
+    color: var(--main-color);
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
