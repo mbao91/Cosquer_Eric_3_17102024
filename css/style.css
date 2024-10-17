@@ -151,7 +151,30 @@ nav a:hover {
     margin-bottom: 5px;
 }
 
+/****** Footer ***********/
+.end {
+    margin: 0 10%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.end li {
+    margin-bottom: 10px;
+}
+
+#end_propos {
+    margin-right: 160px;
+}
+
+#end_hebergements {
+    margin-right: 160px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
